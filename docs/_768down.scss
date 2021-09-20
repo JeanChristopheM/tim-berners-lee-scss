@@ -1,0 +1,38 @@
+body {
+    font-size: 18px;
+    main {
+        section:not(:last-of-type) {
+            margin-bottom:3rem;
+        }
+    }
+    nav {
+        li {
+            font-size:calc(.1vh + 2rem);
+        }
+    }
+    p {
+        margin:0 2rem;
+    }
+    header{
+        a {
+            font-size:calc(.1vh + 2rem);
+        }
+    }
+}
+html {
+    body {
+        h1 {
+            font-size: 30px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        & > *{
+            max-width: 1024px;
+            padding:3rem;
+        }
+    }
+}
